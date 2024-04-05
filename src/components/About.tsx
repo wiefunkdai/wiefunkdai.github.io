@@ -35,10 +35,10 @@ export const About = React.forwardRef<HTMLElement>((props, ref) => {
                 <div className="mx-auto max-w-7xl px-8 pt-8 pb-32 lg:pt-0 lg:pb-0">
                     <div className="items-center max-w-none mx-0 flex flex-col lg:flex-row">
                         <div className="relative shrink-0 max-w-xl lg:max-w-2xl w-full order-2 lg:order-1 mt-16 lg:mt-0">
-                            <h3 className="text-lg font-medium tracking-tight text-gray-600 sm:text-2xl">
+                            <h3 className="text-2xl font-medium tracking-tight text-gray-600 sm:text-4xl">
                                 I'm Full-Stack Developer
                             </h3>
-                            <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+                            <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl mt-1">
                                 Stephanus Bagus Saputra
                             </h1>
                             <p className="mt-6 text-lg leading-8 text-gray-600">
