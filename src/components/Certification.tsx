@@ -331,8 +331,8 @@ export const Certification = React.forwardRef<HTMLElement>((props, ref) => {
                                         </button>
                                     </Dialog.Title>
                                     <Dialog.Description as="div" className="flex flex-wrap flex-row border-b border-gray-100 mx-auto w-full max-w-full">
-                                        <div className="flex relative bg-black items-center justify-center box-border w-full lg:w-2/3 p-0" style={{flex:'0 0 auto'}}>
-                                            <div className="bg-transparent align-baseline text-[100%] border-0 p-0 m-0" style={{height: 'calc(50vh + 176px)'}}>
+                                        <div className="flex relative bg-black items-center justify-center box-border w-full lg:w-2/3 p-0" style={{maxHeight: 'calc(50vh + 176px)', flex:'0 0 auto'}}>
+                                            <div className="bg-transparent align-baseline text-[100%] border-0 p-0 m-0">
                                                 <div className="flex">
                                                     <img className="bg-cover max-w-full object-center object-cover" 
                                                         style={{maxHeight: 'calc(50vh + 176px)', backgroundPosition: '50%'}}
